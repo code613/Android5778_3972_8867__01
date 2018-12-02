@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "340957588661",
-    "firebase_url": "https://android57783972886701v2.firebaseio.com",
-    "project_id": "android57783972886701v2",
-    "storage_bucket": "android57783972886701v2.appspot.com"
+    "project_number": "382366239491",
+    "firebase_url": "https://android57783972886701.firebaseio.com",
+    "project_id": "android57783972886701",
+    "storage_bucket": "android57783972886701.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:340957588661:android:0fc4b8c257e7a362",
+        "mobilesdk_app_id": "1:382366239491:android:0fc4b8c257e7a362",
         "android_client_info": {
           "package_name": "com.example.ben.android5778_3972_8867__01"
         }
       },
       "oauth_client": [
         {
-          "client_id": "340957588661-lvl6mg58i6pl1bs1homqppkm7gj56dad.apps.googleusercontent.com",
+          "client_id": "382366239491-lo8tem0eq1512hm0rrig7ruiur90lto4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.ben.android5778_3972_8867__01",
-            "certificate_hash": "1950df20f819a0f28760f4c5b41dd4b644855137"
+            "certificate_hash": "2cd665c191e2bf608ba93467fc3c0342db5e5f43"
           }
         },
         {
-          "client_id": "340957588661-5cv2bul0ttas8rbhp0akgm8ngpqv1lgq.apps.googleusercontent.com",
+          "client_id": "382366239491-lsjq9tjml8f699tdej78sbua5kbv0c45.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBbgyLPcWTefjP0zJ-Z9UvRcVzsonsnDCo"
+          "current_key": "AIzaSyDSoizzHIOzNVbpLs8ioLlPsJpQdAOJoTo"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "340957588661-5cv2bul0ttas8rbhp0akgm8ngpqv1lgq.apps.googleusercontent.com",
+              "client_id": "382366239491-lsjq9tjml8f699tdej78sbua5kbv0c45.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
