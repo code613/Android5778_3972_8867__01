@@ -52,11 +52,11 @@ public class MainActivity extends Activity {
     BackendFactory b;
     //  BackendFactory b = new BackendFactory(this);
     Firebase_DBManager firebase_dbManager;
-    LocationManager locationManager;
+    LocationManager locationManager; //for what you need again??
     LocationListener locationListener;
     String currentLocationString, destinationLocationString;
     myAsyncTask m = new myAsyncTask();
-    PlaceAutocompleteFragment autocompleteFragment;
+    PlaceAutocompleteFragment autocompleteFragment; //see import..
     Location locationA;
 
     @Override
@@ -69,8 +69,8 @@ public class MainActivity extends Activity {
 
     @SuppressLint("CutPasteId")
     public void findViews() {
-        //  editTextDestination = (EditText) findViewById(R.id.editTextDestination);
-        editTextEmail = (EditText) findViewById(R.id.editTextEmail);
+        //editTextDestination = (EditText) findViewById(R.id.editTextDestination);
+        editTextEmail = (EditText) findViewById(R.id.editTextEmail);//refrince our object to the place in the layout
         editTextPhone = (EditText) findViewById(R.id.editTextPhone);
         buttonAddRide = (Button) findViewById(R.id.buttonAddRide);
         autocompleteFragment = (PlaceAutocompleteFragment)
