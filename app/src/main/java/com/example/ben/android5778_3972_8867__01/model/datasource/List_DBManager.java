@@ -9,7 +9,8 @@ import com.example.ben.android5778_3972_8867__01.model.entities.Client;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.ben.android5778_3972_8867__01.model.backend.Const.ContentValuesToClient;
+import static com.example.ben.android5778_3972_8867__01.model.backend.Const.ContentValuesToCourse;
+import static com.example.ben.android5778_3972_8867__01.model.backend.Const.ContentValuesToCourse;
 //import static com.androidproject.ya.clientapp.model.datasource.DS.clients;
 
 public class List_DBManager implements Backend {
@@ -25,7 +26,7 @@ public class List_DBManager implements Backend {
     @Override
     public Long addClient(ContentValues values, Location a, Location locationA, Utils.Action<Long> action) {
 
-        Client client = ContentValuesToClient(values);
+        Client client = ContentValuesToCourse(values);
         clients.add(client);
         return client.getClientId();
 
@@ -45,7 +46,7 @@ public class List_DBManager implements Backend {
 
     @Override
     public boolean updateClient(Long id, ContentValues values) {
-        Client client = ContentValuesToClient(values);
+        Client client = ContentValuesToCourse(values);
         //client.setName(name);  // to check
         for (int i = 0; i < clients.size(); i++)
             if (clients.get(i).getClientId() == id) {

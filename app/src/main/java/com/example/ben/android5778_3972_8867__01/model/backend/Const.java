@@ -35,7 +35,7 @@ public class Const
 
 
 
-    public static Client ContentValuesToClient(ContentValues contentValues) {
+    public static Client  ContentValuesToCourse(ContentValues contentValues) {
 
         Client client = new Client();
 

@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import static com.example.ben.android5778_3972_8867__01.model.backend.Const.ContentValuesToClient;
+import static com.example.ben.android5778_3972_8867__01.model.backend.Const.ContentValuesToCourse;
 
 public class Firebase_DBManager implements Backend {
 
@@ -54,7 +54,7 @@ public class Firebase_DBManager implements Backend {
     @Override
     public Long addClient(ContentValues values, Location a, Location b, final Utils.Action<Long> action) {
 
-        final Client client = ContentValuesToClient(values);
+        final Client client = ContentValuesToCourse(values);
 
         Locationf aa=new Locationf(a);
         Locationf bb=new Locationf (b);
@@ -105,7 +105,7 @@ public class Firebase_DBManager implements Backend {
 //        Client client = ContentValuesToCourse(values);
 //        client.setStartPoint(a);
 //        client.setDestinationPoint(b);
-//        String key = client.getClientId().toString();
+//        String key = client.getId().toString();
 //        Task<Void> upload = clientsRef.child(key).setValue(client);
 //        //clientsRef.child(key).setValue(locationA);
 //
@@ -119,7 +119,7 @@ public class Firebase_DBManager implements Backend {
 //
 //        });
 //        if (flag == false)
-//            return client.getClientId();
+//            return client.getId();
 //        else
 //            return Long.valueOf(0);
 //    }
@@ -141,7 +141,7 @@ public class Firebase_DBManager implements Backend {
     @Override
     public boolean updateClient(Long id, ContentValues values) {
 
-        Client client = ContentValuesToClient(values);
+        Client client = ContentValuesToCourse(values);
         String key = id.toString();
         //client.setName(name);  // to check
         clientsRef.child(key).setValue(client);
